@@ -1,8 +1,8 @@
 
 #' Connect to EDP on AWS
 #'
-#' @param user: A Character String, The User ID/SLID that needed to connect to EDP.
-#' @param password:  A Character String, User's Password needed to Authenticate and
+#' @param user      A Character String, The User ID/SLID that needed to connect to EDP.
+#' @param password  A Character String, User's Password needed to Authenticate and
 #' connect to the EDP database.
 #'
 #' @return Returns A connection string of user ID and password to AWS which allows a user access to the EDP database.

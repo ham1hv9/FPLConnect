@@ -7,9 +7,9 @@
 connect_to_EDP(user, password)
 }
 \arguments{
-\item{user:}{A Character String, The User ID/SLID that needed to connect to EDP.}
+\item{user}{A Character String, The User ID/SLID that needed to connect to EDP.}
 
-\item{password:}{A Character String, User's Password needed to Authenticate and
+\item{password}{A Character String, User's Password needed to Authenticate and
 connect to the EDP database.}
 }
 \value{
