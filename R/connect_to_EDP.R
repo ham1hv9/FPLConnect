@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' con <- connect_to_EDP("ham0hv9", "z95aM72bd2")
+#' con <- connect_to_EDP(user, password)
 connect_to_EDP <- function(user, password){
 
   # 1.0 Establish Connection with EDP ----

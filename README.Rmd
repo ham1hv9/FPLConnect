@@ -1,0 +1,52 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# FPLConnect
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of FPLConnect is to make it easyer to connect to EDP database or the Gulf Data Warehouse in AWS when using RStudio. 
+
+## Installation
+
+```{r installation}
+# You can install the development version of FPLConnect like so:
+devtools::install_github("ham1hv9/FPLConnect")
+
+```
+
+## Usage
+A fairly common task when trying to connect to either the FPL's EDP database or the Gulf Data Warehouse.
+
+``` r
+# Required Packages (devtools, DBI & odbc).
+```
+
+## Example
+
+This is a basic example which shows you how to connect to either the Gulf Data Warehouse or EDP on AWS:
+
+```{r example}
+library(FPLConnect)
+## basic example code
+
+# To Connect to EDP
+con <- connect_to_EDP(user, password)
+
+# To Connect to the Gulf Data Warehouse
+con1 <- connect_to_GULF_DW(user, password)
+```
+

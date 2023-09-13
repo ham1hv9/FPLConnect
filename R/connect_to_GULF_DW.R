@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' con1 <- connect_to_GULF_DW("ham0hv9", "User@2023")
+#' con1 <- connect_to_GULF_DW(user, passwd)
 connect_to_GULF_DW <- function(user, passwd){
 
   # 1.0 Establish Connection with Gulf Power Data Warehouse ----
