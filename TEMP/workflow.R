@@ -1,5 +1,10 @@
 library(devtools)
 library(roxygen2)
+library(gitcreds)
+library(available)
+
+# Check is prposed package name is available for use.
+available("FPLConnect")
 
 use_git()
 
@@ -57,8 +62,19 @@ test()
 #> a website (see Chapter 19), add a vignette (see Chapter 17), or submit it to CRAN (see Chapter 22).
 use_readme_rmd()
 
+# 1. Initialize GitHub
+use_git_config(user.name  = 'ham1hv9', user.email = 'ham0hv9@fpl.com')
+
+# Set GitHub Credentials
+gitcreds_set()
 
 # Push Package to Git Hub
+# use_github() is a helper that we recommend for the long-term.
 use_github()
 
+
+
+# The very best way to render README.Rmd is with build_readme(), because it takes
+# care to render with the most current version of your package, i.e. it installs a temporary copy from the current source.
+build_readme()
 
