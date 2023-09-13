@@ -20,5 +20,5 @@ Returns A connection string of user ID and password to AWS which allows a user a
 Connect to Gulf Power Data Warehouse on AWS
 }
 \examples{
-con1 <- connect_to_GULF_DW("ham0hv9", "User@2023")
+con1 <- connect_to_GULF_DW(user, passwd)
 }

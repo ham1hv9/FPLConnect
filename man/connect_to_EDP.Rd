@@ -20,5 +20,5 @@ Returns A connection string of user ID and password to AWS which allows a user a
 Connect to EDP on AWS
 }
 \examples{
-con <- connect_to_EDP("ham0hv9", "z95aM72bd2")
+con <- connect_to_EDP(user, password)
 }
