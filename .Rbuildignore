@@ -1,2 +1,4 @@
+^TEMP$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^LICENSE\.md$
