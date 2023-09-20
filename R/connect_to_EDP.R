@@ -15,7 +15,7 @@ connect_to_EDP <- function(user, password){
 
   # 1.0 Establish Connection with EDP ----
 
-  print("Connecting to Database!")
+  print("-- Connecting to Database! --")
 
   # Connection Script
   con <-   DBI::dbConnect(odbc::odbc(),

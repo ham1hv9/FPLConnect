@@ -15,7 +15,7 @@ connect_to_GULF_DW <- function(user, passwd){
 
   # 1.0 Establish Connection with Gulf Power Data Warehouse ----
 
-  print("Connecting to Gulf Power Data Warehouse!")
+  print("-- Connecting to Gulf Power Data Warehouse! --")
 
   # Connection Script
   con1 <-   DBI::dbConnect(odbc::odbc(),
