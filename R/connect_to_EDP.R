@@ -34,6 +34,7 @@ connect_to_EDP <- function(user, password){
 
   # Set SQL Time Zone
   DBI::dbExecute(con, "set timezone = 'America/New_York';")
+  print("* Tmezone set to America/New_York *")
 
   return(con)
 

@@ -34,7 +34,7 @@ connect_to_GULF_DW <- function(user, passwd){
 
   # Set SQL Time Zone
   DBI::dbExecute(con1, "set timezone = 'America/New_York';")
-
+  print("* Tmezone set to America/New_York *")
 
   return(con1)
 }
